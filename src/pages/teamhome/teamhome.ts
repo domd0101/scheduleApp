@@ -19,9 +19,8 @@ export class TeamhomePage {
   }
 
   goHome(){
-    // this.navCtrl.push(MyTeamsPage)
     this.navCtrl.popToRoot()
-
   }
+
 
 }
